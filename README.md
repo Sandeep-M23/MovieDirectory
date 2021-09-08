@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Movie Watchlist
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Movie WatchList that uses TMDB Api to get Movie Details.
+### Developed Using [React.js](https://reactjs.org/)
 
 ## Available Scripts
 
