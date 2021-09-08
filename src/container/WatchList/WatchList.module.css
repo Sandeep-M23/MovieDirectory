@@ -1,0 +1,19 @@
+.WatchList__empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+.WatchList__empty h1{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    color:#111827;
+}
+
+@media(max-width:499px){
+    .WatchList__empty h1{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+}

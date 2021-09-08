@@ -1,0 +1,44 @@
+.MovieList{
+    background:linear-gradient(360deg,#121f3f,#111827);
+    width: 220px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAFB;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    cursor:pointer;
+    text-decoration: none;
+    -webkit-transition: 0.3s transform ease-out;
+    transition: 0.3s transform ease-out;
+}
+.MovieList:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.MovieList img{
+    border-radius: 15px;
+    width: 170px;
+    padding: 10px;
+    height: 200px;
+    line-height: 50px;
+}
+.MovieList p{
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+    font-size: larger;
+    font-weight:medium;
+}
+.MovieList span{
+    font-size: 1.2rem;
+    padding: 0 5px 10px 10px;
+    text-decoration: none; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

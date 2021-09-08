@@ -1,0 +1,28 @@
+.Search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SearchedMovieList{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style: none;
+}
+.Search p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin:0;
+}
+
+@media(max-width:600px){
+    .SearchedMovieList{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-right: 40px;
+    }
+    .Search p{
+        font-size: 1.3rem;
+        margin:0;
+    }
+}
