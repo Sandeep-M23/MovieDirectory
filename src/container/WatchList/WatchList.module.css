@@ -11,9 +11,9 @@
     color:#111827;
 }
 
-@media(max-width:499px){
+@media(max-width:500px){
     .WatchList__empty h1{
-        font-size: 2rem;
+        font-size: 3rem;
         letter-spacing: 2px;
     }
 }
