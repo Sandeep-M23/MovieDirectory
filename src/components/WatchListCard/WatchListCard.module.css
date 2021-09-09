@@ -80,6 +80,9 @@
     }
     .watchListCard h1{
         font-size: 1.3rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width:70%;
     }
     .watchListCard h5{
         font-size: 0.9rem;
@@ -88,7 +91,7 @@
         padding: 13px;
         font-size: 1rem;
         width: 20%;
-        right: 5%;
+        right: -45px;
         margin-top: 7%;
     }
 }
