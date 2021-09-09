@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 .Info h1{
     padding: 10px;
@@ -123,7 +124,8 @@
         margin: 7.7% auto 0 auto;
     }
     .InfoCard img{
-        max-height: 350px;
+        width: 100%;
+        max-height: 400px;
         margin-right: 0px;
         border-top-right-radius: 5px;
         border-bottom-left-radius: 0;
