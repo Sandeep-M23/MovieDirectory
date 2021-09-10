@@ -102,11 +102,92 @@
 	margin: 20px auto 30px;
 	max-width: 1000px;
   }
-  
-  
-  @media (max-width: 500px) {
+
+    
+  @media (max-width: 960px) {
 	.slider-wrapper,
 	.slide {
-		display: none;
+	  max-width: 1000px;
+	  height: calc(80vh - 25vh);
+	  position: relative;
 	}
-}
+	.nextButton {
+		background-size: 25px;
+		width: 35px;
+		height: 35px;
+	  } 
+	  .nextButton:hover{
+		background-size: 30px;
+	  }
+	  .previousButton{
+		  background-size: 25px;
+		  width: 35px;
+		  height: 35px;
+	  }
+	  .previousButton:hover{
+		  background-size: 30px;
+	  }
+  }
+
+  
+  @media (max-width: 960px) {
+	.slider-content .inner{
+		padding: 0;
+		left: 24%;
+		margin:5px
+	}
+	.slider-content .inner h1 {
+	  font-size: 20px;
+	}
+	.slider-content .inner h3 {
+		font-size: 30px;
+	}
+  }
+  
+  @media (max-height: 640px) {
+	.slider-wrapper,
+	.slide {
+	  height: calc(100vh - 75px);
+	}
+  }
+  
+  @media (max-width: 600px) {
+	.slider-wrapper,
+	.slide {
+	  max-width: 900px;
+	  height: calc(80vh - 50vh);
+	  position: relative;
+	}
+	 .nextButton {
+		right: 0;
+		background-size: 25px;
+		width: 30px;
+		height: 30px;
+	  } 
+	  .nextButton:hover{
+		background-size: 30px;
+	  }
+	  .previousButton{
+		  background-size: 25px;
+		  width: 30px;
+		height: 30px;
+	  }
+	  .previousButton:hover{
+		  background-size: 30px;
+	  }
+  }
+
+  
+  @media (max-width: 600px) {
+	.slider-content .inner{
+		padding: 0;
+		left: 24%;
+		margin:5px
+	}
+	.slider-content .inner h1 {
+	  font-size: 15px;
+	}
+	.slider-content .inner p {
+		font-size: 15px;
+	}
+  }
