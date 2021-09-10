@@ -34,18 +34,20 @@
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 10;
-	background: url("https://www.flaticon.com/svg/vstatic/svg/318/318476.svg?token=exp=1618145037~hmac=a6d5d40d974c703fed69f8c62d4a2305") no-repeat center center /
-	  35px;
-	width: 50px;
-	height: 50px;
+	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	  40px;
+	width: 45px;
+	height:45px;
+	border-radius: 100%;
 	text-indent: -9999px;
 	cursor: pointer;
   }
   
   .previousButton:hover,
   .nextButton:hover {
-	background: url("https://www.flaticon.com/svg/vstatic/svg/318/318476.svg?token=exp=1618145037~hmac=a6d5d40d974c703fed69f8c62d4a2305") no-repeat center center /
-	  75px;
+	  	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	  75px;	
+
   }
   
   .previousButton {
@@ -147,6 +149,7 @@
   @media (max-height: 640px) {
 	.slider-wrapper,
 	.slide {
+	  width:97%;
 	  height: calc(100vh - 75px);
 	}
   }
