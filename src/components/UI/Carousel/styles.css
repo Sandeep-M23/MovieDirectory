@@ -34,7 +34,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 10;
-	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	background: url("https://img.icons8.com/ios-filled/344/circled-chevron-right.png") no-repeat center center /
 	  40px;
 	width: 45px;
 	height:45px;
@@ -45,7 +45,7 @@
   
   .previousButton:hover,
   .nextButton:hover {
-	  	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	  	background: url("https://img.icons8.com/ios-filled/344/circled-chevron-right.png") no-repeat center center /
 	  75px;	
 
   }

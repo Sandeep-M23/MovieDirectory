@@ -8,27 +8,27 @@ import "./slider-animations.css";
 const content = [
   {
     title: "Wonder Woman 1984",
-    image: "https://cdn.watch-series.co/cover/wonder-woman-1984-large.png" ,
+    image: "https://cdn.themovieseries.net/cover/wonder-woman-1984-large.png" ,
     rating : "7.1"
   },
   {
     title: "Soul",
-    image: "https://cdn.watch-series.co/cover/soul-large.png",
+    image: "https://cdn.themovieseries.net/cover/soul-large.png",
     rating:"8.5" 
   },
   {
     title: "Tenet",
-    image: "https://cdn.watch-series.co/cover/tenet-large.png",
+    image: "https://cdn.themovieseries.net/cover/tenet-large.png",
     rating:"7.3" 
   },
   {
     title: "Outside The Wire",
-    image: "https://cdn.watch-series.co/cover/outside-the-wire-large.png",
+    image: "https://cdn.themovieseries.net/cover/outside-the-wire-large.png",
     rating:"6.3" 
   },
   {
     title: "Mulan 2020",
-    image: "https://cdn.watch-series.co/cover/mulan-2020-large.png",
+    image: "https://cdn.themovieseries.net/cover/mulan-2020-large.png",
     rating:"7.1" 
   }
 ];
